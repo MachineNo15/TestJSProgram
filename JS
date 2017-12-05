@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+
+	<title>Web Page Design</title>
+	<head>
+		<script>
+
+			function O2H()
+			{
+	var count = '',t=0,n=0;
+  
+  
+				for(count=1;count<=100;count++){
+
+					n = count * 9;
+					t = count * 3;
+					
+					if(count == (n/9))
+					{document.write(count+" Pluto</br>");}
+					
+					if(count%5 == 0)
+					{document.write(count+" Jupiter</br>");}
+					
+					if(count == (t/3))
+					{document.write(count+" Earth</br>");}
+					else{document.write(count+"</br>");
+}
+				}
+			}
+	
+			
+O2H();
+
+		</script>
+
+	</head>
+
+	
+<body>
+	
+</body>
+
+</html>
