@@ -21,7 +21,7 @@ function run(){
 			continue;
 		}					
 		else
-			document.write(count+"</br>");
+		{	document.write(count+"</br>"); }
 
 	}
 }
